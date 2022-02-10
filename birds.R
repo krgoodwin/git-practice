@@ -37,6 +37,6 @@ tail(group_size)
 group_size %>%
   ggplot(aes(x = species_count)) +
   geom_histogram() +
-  ggtitle("Distribution of species group size") +
+  ggtitle("Distribution of species group sizes") +
   xlab("Number of species") +
   ylab("Frequency")
